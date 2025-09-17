@@ -594,7 +594,7 @@ img {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #e7e9fc;
   border-radius: 100%;
-  stroke-width: 1px;
+  /* stroke-width: 1px; */
 }
 
 .modal-button:hover {
