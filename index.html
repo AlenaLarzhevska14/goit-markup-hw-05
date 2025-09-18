@@ -482,11 +482,13 @@
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
       </button>
+
       <p class="modal-text">Leave your contacts and we will call you back
 </p>
 <form class="modal-form">
   <div class="modal-filed">
   <label for="user-name" class="modal-input-label">Name</label>
+  <div class="svg-input">
   <input type="text" class="modal-input" placeholder="Your name"
   name="user-name"
   id="user-name"
@@ -495,30 +497,41 @@
   <svg class="input-icon" width="18" height="18">
     <use href="./images/icons.svg#icon-person"></use>
   </svg>
-  </div>
+  </div></div>
 
   
 
-  <div class="nput-wrapper">
+  <div class="input-wrapper">
     <label for="user-name" class="modal-input-label">Phone</label>
+    <div class="svg-input">
   <input type="text" class="modal-input" placeholder="Your phone"
   name="user-phone
   id=user-phone"
-  required
-  />
+  required />
+  <svg class="input-icon" width="18" height="24">
+    <use href="./images/icons.svg#icon-phone"></use>
+  </svg>
+</div>
 </div>
 
-
-<div class="modal-field">
+<div class="modal-filed">
   <label for="user-name" class="modal-input-label">Email</label>
+  <div class="svg-input">
   <input type="text" class="modal-input" placeholder="Your email"
   name="user-email"
   id="user-email"
   required
   />
-</div>
+  <svg class="input-icon" width="18" height="24">
+    <use href="./images/icons.svg#icon-email"></use>
+  </svg>
+</div></div>
+<p class="modal-input-label">Comment</p>
+<textarea name="user-text" id="user-text"
+  class="modal-textarea"
+  placeholder="Text input"></textarea>
 
-  <button type="submit">Send</button>
+  <button class="button-modals"type="submit">Send</button>
 
 
 </form>
