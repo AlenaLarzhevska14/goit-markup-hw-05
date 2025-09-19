@@ -758,5 +758,6 @@ a {
 }
 
 .modal-files {
+  display: flex;
   padding-top: 16px;
 }
