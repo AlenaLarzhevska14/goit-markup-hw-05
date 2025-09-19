@@ -685,8 +685,15 @@ img {
   border: none;
   margin-top: 24px;
   margin-bottom: 24px;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.button-modals:hover {
+  background-color: #404bbf;
+}
+
+.button-modals:focus {
+  background-color: #404bbf;
 }
 
 .svg-input {
