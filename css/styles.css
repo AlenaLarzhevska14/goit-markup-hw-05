@@ -860,4 +860,8 @@ a {
 }
 
 .text-policy {
+  line-height: 1.3;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
