@@ -817,7 +817,7 @@ img {
 .modal-check:checked + .modal-check-label > .modal-check-box {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 .modal-check-label {
