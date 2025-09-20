@@ -773,14 +773,17 @@ img {
 }
 .button-modals:hover {
   background-color: #404bbf;
+  border: none;
 }
 
 .button-modals:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .svg-input {
   position: relative;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
