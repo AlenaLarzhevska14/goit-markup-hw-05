@@ -472,6 +472,22 @@
           </ul>
         </div>
       </div>
+      <div class="subscribe">
+        <p class="subscribe-text">Subscribe</p>
+        <form class="footer-form">
+        <label aria-label="footer-email">
+          <input 
+          class="footer-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+           ></label>
+        <button type="submit" class="footer-button">Subscribe <svg class="svg-subscribe" width="24" height="20">
+          <use href="./images/icons.svg#icon-Frame"></use>
+        </svg></button>
+        </form>
+      </div>
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
@@ -533,7 +549,8 @@
   <div class="modal-files">
     <input
       type="checkbox"
-      class="modal-check"
+class="modal-check  visually-hidden"
+value="accept"
       name="policy"
       id="policy"
        />
