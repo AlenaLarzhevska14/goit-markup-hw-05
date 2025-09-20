@@ -809,7 +809,6 @@ img {
   line-height: 1.17;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
@@ -858,4 +857,7 @@ a {
 
 .modal-check-wraper {
   margin-bottom: 24px;
+}
+
+.text-policy {
 }
